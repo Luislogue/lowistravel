@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Estilos*/
+
+body{
+	background-image: url(../resources/fondo.jpg);
+	
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 42px;
+	margin: 15px;
+}
+
+/* formato containers*/
+.container{
+	display: flex;
+	margin: auto;
+	width: 900px;
+	background: #474343;
+	box-shadow: 5px 8px 15px rgb(88, 88, 88);
+	justify-content: center;
+	color: #f2f2f2;
+	
+}
+.center-content{
+	width: 400px;
+	padding: 18px;
+		
+}
+
+label{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+input, select, textarea{
+	width: 100%;
+	margin: 2px;
+	padding: 12px;
+}
+
+.gustos{
+	height: 120px;
+	margin-top: 10px;
+}
+.boton{
+	width: 75px;
+	margin-top: 10px; 
+	box-shadow: 1px 3px 8px rgb(71, 70, 70)
+}
+.personas, .dias{
+	
+	width: 65px;
+
+}
+.country, .place, .comodity, .type{
+	width: 120px;
+}
